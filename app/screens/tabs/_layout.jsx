@@ -35,9 +35,9 @@ export default function TabsLayout() {
             />
 
             <Tabs.Screen
-                name="search"
+                name="orders"
                 options={{
-                    title: 'Search',
+                    title: 'Orders',
                     tabBarIcon: () => (
                         <Ionicons name="search-outline" size={24} color="black" />
                     ),

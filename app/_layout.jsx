@@ -6,6 +6,7 @@ export default function Layout() {
       <Stack.Screen name="index" />
       <Stack.Screen name="screens/auth/login" />
       <Stack.Screen name="screens/tabs" />
+      <Stack.Screen name="screens/confirmation" />
     </Stack>
   );
 }

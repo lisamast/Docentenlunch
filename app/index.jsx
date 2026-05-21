@@ -1,7 +1,8 @@
+import { Redirect } from 'expo-router'
 import {View} from 'react-native'
 
 export default function App() {
   return (
-    <View>app</View>
+    <Redirect href="/screens/auth/login" />
   )
 }
